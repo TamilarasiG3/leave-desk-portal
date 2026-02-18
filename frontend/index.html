@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leave Desk Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Leave Desk Portal</h1>
+
+<form id="leaveForm">
+    <select id="leaveType" required>
+        <option value="">Select Leave</option>
+        <option>Casual Leave</option>
+        <option>Sick Leave</option>
+        <option>Earned Leave</option>
+    </select>
+
+    <input type="date" id="fromDate" required>
+    <input type="date" id="toDate" required>
+    <textarea id="reason" placeholder="Reason" required></textarea>
+    <button type="submit">Apply Leave</button>
+</form>
+
+<h2>Leave History</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="leaveTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

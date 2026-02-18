@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #4e73df, #1cc88a);
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Form Card */
+form {
+    background: white;
+    max-width: 400px;
+    margin: 0 auto 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Input focus effect */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #4e73df;
+    outline: none;
+    box-shadow: 0 0 5px rgba(78,115,223,0.5);
+}
+
+/* Button */
+button {
+    background-color: #4e73df;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2e59d9;
+}
+
+/* Leave History Section */
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* Table */
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Table Header */
+th {
+    background-color: #4e73df;
+    color: white;
+    padding: 12px;
+}
+
+/* Table Cells */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Row hover effect */
+tr:hover {
+    background-color: #f2f2f2;
+}
